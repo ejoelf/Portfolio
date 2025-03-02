@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../icon/favicon_32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/styles/global.css" />
+  <link rel="stylesheet" href="/styles/contacto.css">
+  <title>Contacto</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo-portafolio-nav" src="../img/default_transparent_765x625.png" alt="logo portafolio" />
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="menu-hamburguesa">☰</label>
+
+    <nav class="barra-nav">
+      <ul>
+        <li><a class="enlaces" href="/index.html" tabindex="1">Home</a></li>
+        <li><a class="enlaces" href="/sobremi.html" tabindex="2">Sobre Mi</a></li>
+        <li><a class="enlaces" href="/proyectos.html" tabindex="3">Proyectos</a></li>
+        <li><a class="enlaces" href="/contacto.html" tabindex="4" aria-current="page">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="titulo-contacto">Contacto</h1>
+    <article class="contacto-container">
+      <section class="formulario">
+        <h2 class="titulo-h2">Escríbeme</h2>
+        <form action="https://formsubmit.co/ejoelf10@gmail.com" method="POST">
+
+          <div class="coolinput">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s'-]+$"
+              required />
+          </div>
+
+          <div class="coolinput">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" placeholder="Tu email"
+              pattern="^(\w+[/./-]?){1,}@[a-z]+[/.]\w{2,}$" required />
+          </div>
+
+          <div class="coolinput">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </section>
+
+      <section class="info-contacto">
+        <div class="redes-container">
+
+          <div class="card-contacto">
+            <a href="https://www.linkedin.com/in/eric-joel-fern%C3%A1ndez/" target="_blank"
+              aria-label="Ir a mi perfil de linkedin" title="Abrir linkedin en una nueva pestaña">
+              <figure>
+                <img src="../icon/linkedin.png" alt="logo LinkedIn" />
+
+              </figure>
+            </a>
+          </div>
+          <div class="card-contacto">
+            <a href="https://github.com/ejoelf" target="_blank" aria-label="Ir al perfil de github"
+              title="Abrir github en una nueva pestaña">
+              <figure>
+                <img src="../icon/github.png" alt="logo GitHub" />
+
+              </figure>
+            </a>
+          </div>
+          <div class="card-contacto">
+            <a href="https://wa.me/+393757723901" target="_blank" aria-label="Enviar mensaje por whatsapp"
+              title="Enviar mensaje por whatsapp en una nueva pestaña">
+              <figure>
+                <img src="../icon/whatsapp.png" alt="logo WhatsApp" />
+
+              </figure>
+            </a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="pie-pagina" aria-label="Pie de página">
+    <p class="p-pie-pagina">© 2025 - Joel Fernandez</p>
+  </footer>
+</body>
+
+</html>

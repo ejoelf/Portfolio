@@ -1,0 +1,82 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 {
+  padding: 25px;
+  font-size: 1.6rem;
+}
+
+h2 {
+  padding-top: 8px;
+  font-size: 1.8rem;
+}
+
+.parrafo {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.fig-img {
+  display: flex;
+  justify-content: center;
+}
+
+.imagen {
+  max-width: 300px;
+  height: auto;
+  border-radius: 50%;
+  box-shadow: 0px 0px 8px 8px rgba(121, 227, 189, 0.5);
+}
+
+.contenedor-a {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.btn-cv {
+  box-shadow: 0 0 15px rgba(72, 201, 176, 0.8);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.btn-cv:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: rgb(72, 201, 176);
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.4rem;
+    padding: 30px;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .parrafo {
+    font-size: 1rem;
+  }
+
+  .imagen {
+    max-width: 60%;
+    margin: 30px;
+  }
+
+  .btn-cv {
+    font-size: 1rem;
+    padding: 8px;
+  }
+}

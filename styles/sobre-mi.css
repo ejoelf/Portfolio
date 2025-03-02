@@ -1,0 +1,73 @@
+h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+.all-p {
+  font-size: 18px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(121, 227, 189, 0.5);
+}
+
+.all-p a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.all-p a:hover {
+  color: rgba(121, 227, 189, 0.5);
+  transition: color 0.3s ease;
+}
+
+.habilidades-h2 {
+  padding: 25px;
+  text-align: center;
+}
+
+.tecnicas {
+  padding-bottom: 15px;
+}
+
+.listado-tecnicas {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  list-style: none;
+  justify-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(121, 227, 189, 0.5);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+figure {
+  justify-items: center;
+}
+
+@media (max-width: 1024px) {
+  .listado-tecnicas {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 90%;
+  }
+
+  .all-p {
+    max-width: 85%;
+  }
+}
+
+@media (max-width: 768px) {
+  .all-p {
+    font-size: 16px;
+    padding: 10px;
+    max-width: 90%;
+  }
+
+  .listado-tecnicas {
+    max-width: 90%;
+    grid-template-columns: repeat(3, 0.5fr);
+  }
+}

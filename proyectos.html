@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="../icon/favicon_32x32.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/styles/global.css" />
+  <link rel="stylesheet" href="/styles/proyectos.css">
+  <title>Proyectos</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="logo-portafolio-nav" src="../img/default_transparent_765x625.png" alt="logo portafolio" />
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+    <label for="menu-toggle" class="menu-hamburguesa">☰</label>
+
+    <nav class="barra-nav">
+      <ul>
+        <li><a class="enlaces" href="/index.html" tabindex="1">Home</a></li>
+        <li><a class="enlaces" href="/sobremi.html" tabindex="2">Sobre Mi</a></li>
+        <li><a class="enlaces" href="/proyectos.html" tabindex="3" aria-current="page">Proyectos</a></li>
+        <li><a class="enlaces" href="/contacto.html" tabindex="4">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="titulo-proyectos">Proyectos</h1>
+    <article class="proyectos-container">
+      <div class="proyecto-card">
+        <div class="proyecto-card-inner">
+          <div class="proyecto-card-front proyecto-integrador"></div>
+          <div class="proyecto-card-back">
+            <h3 class="titulo-proyecto">Rick and Morty</h3>
+            <p>
+              Sitio web inspirado en la serie "Rick y Morty", donde los usuarios
+              pueden buscar personajes, ver sus datos en detalle, filtrar por
+              género, ordenar por id y guardar sus favoritos.
+            </p>
+            <ul>
+              <li>React.js y Redux.js para el frontend.</li>
+              <li>Node.js y Express.js para el backend.</li>
+              <li>API externa para obtener los datos de los personajes.</li>
+            </ul>
+            <a href="https://github.com/ejoelf/Proyecto-Integrador---Rick-and-Morty" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proyecto-card">
+        <div class="proyecto-card-inner">
+          <div class="proyecto-card-front proyecto-individual"></div>
+          <div class="proyecto-card-back">
+            <h3 class="titulo-proyecto">Countries</h3>
+            <p>
+              Aplicación SPA que permite buscar y visualizar países del mundo,
+              además de filtrar y ordenar los resultados. Incluye funcionalidades
+              para crear actividades turísticas.
+            </p>
+            <ul>
+              <li>Frontend con React y Redux.</li>
+              <li>Backend con Node.js, Express y Sequelize.</li>
+              <li>Base de datos PostgreSQL con Sequelize.</li>
+            </ul>
+            <a href="https://github.com/ejoelf/Proyecto-Individual---Countries" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="proyecto-card">
+        <div class="proyecto-card-inner">
+          <div class="proyecto-card-front proyecto-final"></div>
+          <div class="proyecto-card-back">
+            <h3 class="titulo-proyecto">Interfoods</h3>
+            <p class="contenido-parrafo">
+              Aplicación web Full Stack en equipo, que permite comprar alimentos
+              de diferentes países, crear cuentas personales y dejar comentarios
+              sobre platos específicos.
+            </p>
+            <ul>
+              <li>Autenticación de usuarios con Firebase.</li>
+              <li>Pasarela de pagos con Mercado Pago.</li>
+              <li>Envío de emails con Nodemailer.</li>
+            </ul>
+            <a href="https://github.com/ejoelf/PF-Henry-InterFood" target="_blank">Ver en GitHub</a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </main>
+
+  <footer class="pie-pagina" aria-label="Pie de página">
+    <p class="p-pie-pagina">© 2025 - Joel Fernandez</p>
+  </footer>
+</body>
+
+</html>
