@@ -68,7 +68,7 @@ figure {
 
   .listado-tecnicas {
     max-width: 90%;
-    grid-template-columns: repeat(3, 0.5fr);
+    grid-template-columns: repeat(3, 1fr);
     justify-items: center;
   }
 }
