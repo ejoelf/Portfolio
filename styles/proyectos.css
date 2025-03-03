@@ -93,8 +93,7 @@ h1 {
 }
 
 .proyecto-final {
-  background-image: url("/img/Interfoods.jpg");
-  background-position: left;
+  background-image: url("/img/Interfood.jpg");
 }
 
 @media (max-width: 1024px) {
