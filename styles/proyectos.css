@@ -24,7 +24,8 @@ h1 {
   transition: transform 0.6s;
 }
 
-.proyecto-card:hover .proyecto-card-inner {
+.proyecto-card:hover .proyecto-card-inner,
+.proyecto-card:focus-within .proyecto-card-inner {
   transform: rotateY(180deg);
 }
 
